@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.a {
+    height: 33px;
+    background-color: #e3e4e5;
+}
+.b{
+    float: left;
+    height: 35px;
+    margin-left: 30px;
+    font-size: 12px;
+    line-height: 33px;
+    color: #adadae;
+
+}
+.a ul li{
+    float: left;
+    height: 35px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 16px;
+
+}
+
+.c{
+    display: none;
+    margin-left: -10px;
+    width: 4px;
+
+}
+.c li{
+    display: block;
+    float: right;
+}
+.a .b li:hover{
+    background-color: white;
+    color: black;
+}
+.a .b li:hover ul{
+    display: block;
+}
+.b .c li{
+    display: block;
+    z-index: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.d{
+    left: 0;
+    width: 282px;
+    height: 163px;
+    background-color: white;
+}
+.jdlist{
+    width: 280px;
+    height: 92px;
+}
+.for{
+    float: left;
+    width: 126px;
+}
+.for1{
+    float: left;
+    width: 126px;
+}
+.tp{
+    width: 1440px;
+    height: 194px;
+    margin-left: 130px;
+    margin-bottom: -10px;
+    background: url(../images/jd.png) no-repeat center;
+}
+span{
+    color: red;
+}
+.lsp{
+    cursor: pointer;
+}
+span:hover{
+    color: black;
+}
